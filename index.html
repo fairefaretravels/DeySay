@@ -1,23 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>DEY SAID SIGN UP</title>
-<style>
-  body { background:#000; color:#fff; font-family:Arial, sans-serif; text-align:center; padding:40px;}
-  h1 { font-size:48px; margin:20px 0;}
-  h2 { font-size:20px; margin:10px 0;}
-  button { background:#CBA135; border:none; color:#000; padding:16px 32px;
-           font-size:18px; font-weight:bold; cursor:pointer; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>DEY SAID — LETS PLAY</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #050509;
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+    }
+    .wrap {
+      max-width: 900px;
+      padding: 32px 16px 64px;
+    }
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 0.08em;
+      margin: 0 0 8px;
+    }
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin: 0 0 24px;
+    }
+    .tagline {
+      font-size: 1.1rem;
+      margin-bottom: 32px;
+      opacity: 0.9;
+    }
+    .host {
+      margin-top: 24px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 14px 30px;
+      border-radius: 999px;
+      border: none;
+      background: #facc15;
+      color: #000000;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+    .cta-btn:active,
+    .cta-btn:focus {
+      outline: none;
+      opacity: 0.9;
+    }
+    .poster-placeholder {
+      margin: 32px auto 16px;
+      width: 100%;
+      max-width: 500px;
+      aspect-ratio: 3/4;
+      border-radius: 24px;
+      border: 2px solid #facc15;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      opacity: 0.7;
+    }
+    .footer-note {
+      margin-top: 40px;
+      font-size: 0.8rem;
+      opacity: 0.7;
+    }
+  </style>
 </head>
 <body>
-<h1>DEY SAID</h1>
+  <div class="wrap">
+    <h1>DEY SAID</h1>
+    <h2>LETS PLAY</h2>
 
+    <p class="tagline">Find out what DEY SAID and see if you really know.</p>
 
-<h2>Sign Up To Play</h2>
-<iframe src="https://forms.gle/ZMBBSJcUiJTAd6xb7"
-        width="100%" height="600" frameborder="0"></iframe>
+    <div class="poster-placeholder">
+      Future poster for: DEY SAID Hosted by SENECA MACK
+    </div>
+
+    <p>Be first in line when the game goes live.</p>
+    <a class="cta-btn"
+       href="https://forms.gle/ZMBBSJcUiJTAd6xb7"
+       target="_blank" rel="noopener">
+      Sign Up To Play
+    </a>
+
+    <p class="host">Hosted by SENECA MACK</p>
+
+    <p class="footer-note">
+      GameSpotUSA.store · Original interactive game show experience.
+    </p>
+  </div>
 </body>
 </html>
